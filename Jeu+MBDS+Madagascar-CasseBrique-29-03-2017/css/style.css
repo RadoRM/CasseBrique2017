@@ -1,0 +1,95 @@
+canvas {
+  border:1px solid black;
+  /*background-image: url("../images/LzJoPy4.png");*/
+  background-color : black;
+  margin:0 35%;
+}
+
+
+.conteneur-home, .conteneur-gameover, .conteneur-regles {
+  align: center;
+  border:1px solid black;
+  margin:0 35%;
+  height: 600px;
+}
+
+.conteneur-home h1 {
+  text-align : center;
+  font-family : Calibri;
+  margin-top: 30%
+}
+
+.conteneur-gameover h1 {
+  text-align : center;
+  font-family : Calibri;
+  margin-top: 30%;
+}
+
+.conteneur-regles {
+	padding: 0 2%;
+}
+
+.conteneur-regles h1 {
+  text-align : center;
+  font-family : Calibri;
+  margin-top: 3%;
+}
+
+.conteneur-regles p {
+  text-align : justify;
+  font-family : Calibri;
+}
+
+.conteneur-gameover h2 {
+  text-align : center;
+  font-family : Calibri;
+  font-weight : bold;
+}
+
+.btn-commencer {
+  margin:0 25%;
+  width:50%;
+  height:60px;
+  border : 3px solid grey;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+.btn-regles {
+  margin:5% 25%;
+  width:50%;
+  height:60px;
+  border : 3px solid grey;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+.btn-retour-accueil {
+  margin:0 25%;
+  width:50%;
+  height:60px;
+  border : 3px solid grey;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+.img-sad {
+	height: auto;
+    margin: 2% 38%;
+    text-align: center;
+    width: 100px;
+}
+
+.img-welcome {
+	height: auto;
+    margin: 2% 33%;
+    text-align: center;
+    width: 150px;
+}
+
+.img-congrats {
+	height: auto;
+    margin: 2% 27%;
+    text-align: center;
+    width: 150px;
+}
